@@ -1,0 +1,11 @@
+def heysiri(a):
+    if a=="こんにちは":
+        print("こんにちは")
+    elif a=="名前は？":
+        print("私はsiriです")
+    else:
+       print("すみません、よくわかりません")
+
+print("文章を入力してください")
+word=input()
+heysiri(word)
